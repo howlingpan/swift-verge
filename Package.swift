@@ -27,7 +27,7 @@ let package = Package(
 
     /// for testing
     .package(url: "https://github.com/nalexn/ViewInspector.git", from: "0.9.3"),
-    .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "509.0.0"),
+    .package(url: "https://github.com/swiftlang/swift-syntax.git", "509.0.0"..<"601.0.0-prerelease"),
     .package(url: "https://github.com/pointfreeco/swift-macro-testing.git", from: "0.5.2")
   ],
   targets: [
